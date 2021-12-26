@@ -22,18 +22,17 @@ function ToggleOptions(props) {
 
 export default function Settings(props) {
     return (
-        <div className="flex-shrink-0 bg-white dark:bg-black transition-colors duration-300 rounded-3xl p-8 pt-6 flex flex-col gap-2">
-            <h2 className="text-xl text-center">settings</h2>
-            <div className="flex gap-4 items-center">
-                <span className="flex-grow">theme</span>
+        <div className="flex md:flex-row flex-col gap-8">
+            <div className="w-full bg-white dark:bg-black transition-colors duration-300 rounded-3xl p-8 flex gap-4 items-center">
+                <span className="text-xl flex-grow">theme</span>
                 <ToggleOptions
                     options={["light", "dark", "system"]}
                     selected={props.theme}
                     setSelected={props.setTheme}
                 />
             </div>
-            <div className="flex gap-4 items-center">
-                <span className="flex-grow">open links in</span>
+            <div className="w-full bg-white dark:bg-black transition-colors duration-300 rounded-3xl p-8 flex gap-4 items-center">
+                <span className="text-xl flex-grow">open links in</span>
                 <ToggleOptions
                     options={["new tab", "current tab"]}
                     selected={props.newTab ? "new tab" : "current tab"}

@@ -83,20 +83,18 @@ export default function Homepage() {
         <div className={dark && "dark"}>
             <div className="bg-gray-200 dark:bg-gray-800 dark:text-white transition-colors duration-300 flex flex-col h-full">
                 <div className="flex-grow mx-auto max-w-4xl w-full px-4">
-                    <div className="flex py-8 gap-8">
-                        <Header />
-                        <Settings
-                            theme={theme}
-                            newTab={newTab}
-                            setTheme={setTheme}
-                            setNewTab={setNewTab}
-                        />
-                    </div>
+                    <Header />
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                         {LINKS.map((link) => (
                             <Card key={link.url} {...link} newTab={newTab} />
                         ))}
                     </div>
+                    <Settings
+                        theme={theme}
+                        newTab={newTab}
+                        setTheme={setTheme}
+                        setNewTab={setNewTab}
+                    />
                     <Footer />
                 </div>
             </div>
