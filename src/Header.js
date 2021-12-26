@@ -2,11 +2,11 @@ import React from "react"
 
 export default function Header() {
     return (
-        <div className="text-center py-6">
-            <h1 className="text-5xl">nuisance</h1>
+        <div>
+            <h1 className="text-7xl">nuisance.</h1>
             <h2 className="text-xl mt-4">
-                Northeastern University Information, Services, And Notifications
-                Considered Essential
+                northeastern university information, services, and notifications
+                considered essential
             </h2>
         </div>
     )

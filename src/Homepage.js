@@ -1,17 +1,33 @@
 import React from "react"
+import useLocalStorageState from "use-local-storage-state"
+
 import Header from "./Header"
 import Footer from "./Footer"
 import LINKS from "./links"
+import Settings from "./Settings"
 
 function Button(props) {
-    return (
-        <a
-            className="flex-1 border-2 border-gray-400 hover:bg-blue-400 transition-colors duration-300 rounded-xl p-2 text-center"
-            href={props.url}
-        >
-            {props.text}
-        </a>
-    )
+    const className =
+        "flex-1 border-2 border-gray-400 hover:bg-blue-300 transition-colors duration-300 rounded-xl p-2 text-center"
+
+    if (props.newTab) {
+        return (
+            <a
+                className={className}
+                href={props.url}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {props.text}
+            </a>
+        )
+    } else {
+        return (
+            <a className={className} href={props.url}>
+                {props.text}
+            </a>
+        )
+    }
 }
 
 function Card(props) {
@@ -24,7 +40,11 @@ function Card(props) {
             {props.options && (
                 <div className="flex gap-4 mt-4">
                     {props.options.map((option) => (
-                        <Button key={option.url} {...option} />
+                        <Button
+                            key={option.url}
+                            newTab={props.newTab}
+                            {...option}
+                        />
                     ))}
                 </div>
             )}
@@ -33,15 +53,31 @@ function Card(props) {
 }
 
 export default function Homepage() {
+    const [theme, setTheme] = useLocalStorageState("nuisance-theme", "light")
+    const [newTab, setNewTab] = useLocalStorageState(
+        "nuisance-tab-behavior",
+        false
+    )
+
     return (
-        <div className="flex-grow mx-auto max-w-4xl w-full px-4">
-            <Header />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-                {LINKS.map((link) => (
-                    <Card key={link.url} {...link} />
-                ))}
+        <div className="bg-gray-200 flex flex-col h-full">
+            <div className="flex-grow mx-auto max-w-4xl w-full px-4">
+                <div className="flex py-8 gap-8">
+                    <Header />
+                    <Settings
+                        theme={theme}
+                        newTab={newTab}
+                        setTheme={setTheme}
+                        setNewTab={setNewTab}
+                    />
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    {LINKS.map((link) => (
+                        <Card key={link.url} {...link} newTab={newTab} />
+                    ))}
+                </div>
+                <Footer />
             </div>
-            <Footer />
         </div>
     )
 }
