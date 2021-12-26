@@ -12,6 +12,7 @@ function ToggleOptions(props) {
                             : "bg-transparent")
                     }
                     onClick={() => props.setSelected(option)}
+                    key={option}
                 >
                     {option}
                 </button>

@@ -80,7 +80,7 @@ export default function Homepage() {
     const dark = theme === "dark" || (theme === "system" && systemDark)
 
     return (
-        <div className={dark && "dark"}>
+        <div className={dark ? "dark" : ""}>
             <div className="bg-gray-200 dark:bg-gray-800 dark:text-white transition-colors duration-300 flex flex-col h-full">
                 <div className="flex-grow mx-auto max-w-4xl w-full px-4">
                     <Header />
