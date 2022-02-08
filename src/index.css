@@ -9,3 +9,13 @@ body,
     padding: 0;
     min-height: 100%;
 }
+
+body {
+    @apply bg-gray-200;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        @apply bg-gray-800;
+    }
+}
