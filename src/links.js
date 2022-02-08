@@ -149,16 +149,16 @@ const LINKS = [
         ],
     },
     {
-        title: "myNortheastern",
-        description: "primary northeastern portal",
+        title: "nuisance",
+        description: "request new links",
         options: [
             {
-                text: "home",
-                url: "https://my.northeastern.edu/group/student",
+                text: "new suggestion",
+                url: "https://github.com/Breq16/nuisance/issues/new",
             },
             {
-                text: "services & links",
-                url: "https://my.northeastern.edu/group/student/services-links",
+                text: "pull request",
+                url: "https://github.com/Breq16/nuisance/compare",
             },
         ],
     },
