@@ -55,11 +55,11 @@ function Card(props) {
 function useSystemTheme() {
     const [dark, setDark] = React.useState()
 
-    React.useEffect(() => {
+    React.useLayoutEffect(() => {
         setDark(window.matchMedia("(prefers-color-scheme: dark)").matches)
     }, [])
 
-    React.useEffect(() => {
+    React.useLayoutEffect(() => {
         const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)")
         const handler = () => setDark(mediaQuery.matches)
         mediaQuery.addEventListener("change", handler)
