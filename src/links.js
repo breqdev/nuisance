@@ -50,6 +50,10 @@ const LINKS = [
                 text: "home",
                 url: "https://neuidmsso.neu.edu/rmsmercury",
             },
+            {
+                text: "work request",
+                url: "https://workrequest.neu.edu/logon.aspx?ReturnUrl=%2fFAWorkRequestForm.aspx",
+            },
         ],
     },
     {
@@ -62,12 +66,32 @@ const LINKS = [
                 url: "https://nubanner.neu.edu/StudentRegistrationSsb",
             },
             {
+                text: "searchNEU",
+                url: "https://searchneu.com/",
+            },
+        ],
+    },
+    {
+        title: "past courses",
+        description: "view your transcript or degree audit",
+        options: [
+            {
                 text: "transcript",
                 url: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskotrn.P_ViewTermTran",
             },
             {
                 text: "audit",
                 url: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+            },
+        ],
+    },
+    {
+        title: "course evaluations",
+        description: "view or submit course evaluations",
+        options: [
+            {
+                text: "trace",
+                url: "https://www.applyweb.com/eval/shibboleth/neu/36892",
             },
         ],
     },
@@ -80,8 +104,8 @@ const LINKS = [
                 url: "https://service.northeastern.edu/wellness?id=wellness_cat_item&sys_id=340f4312dbda1c102d2caa82ca9619bf",
             },
             {
-                text: "test scheduler",
-                url: "https://northeastern.sharepoint.com/sites/covidscheduler/SitePages/TestScheduler.aspx",
+                text: "test results",
+                url: "https://nuniorchard.netsmartcloud.com/",
             },
         ],
     },
