@@ -96,20 +96,6 @@ const LINKS = [
         ],
     },
     {
-        title: "covid testing",
-        description: "schedule a covid 19 test",
-        options: [
-            {
-                text: "wellness check",
-                url: "https://service.northeastern.edu/wellness?id=wellness_cat_item&sys_id=340f4312dbda1c102d2caa82ca9619bf",
-            },
-            {
-                text: "test results",
-                url: "https://nuniorchard.netsmartcloud.com/",
-            },
-        ],
-    },
-    {
         title: "dining services",
         description: "view dining hall hours and menus",
         options: [
