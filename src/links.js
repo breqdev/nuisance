@@ -124,6 +124,16 @@ const LINKS = [
         ],
     },
     {
+        title: "health plan",
+        description: "waive your health plan fee",
+        options: [
+            {
+                text: "fee waiver",
+                url: "https://www.gallagherstudent.com/northeastern",
+            },
+        ],
+    },
+    {
         title: "groupme",
         description: "group chats for courses and LLCs",
         options: [
