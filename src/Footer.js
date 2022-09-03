@@ -33,7 +33,7 @@ const FOOTER_LINKS = [
     {
         text: "github",
         icon: faGithub,
-        url: "https://github.com/breq16/nuisance",
+        url: "https://github.com/breqdev/nuisance",
     },
 ]
 

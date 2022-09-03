@@ -174,11 +174,11 @@ const LINKS = [
         options: [
             {
                 text: "new suggestion",
-                url: "https://github.com/Breq16/nuisance/issues/new",
+                url: "https://github.com/breqdev/nuisance/issues/new",
             },
             {
                 text: "pull request",
-                url: "https://github.com/Breq16/nuisance/compare",
+                url: "https://github.com/breqdev/nuisance/compare",
             },
         ],
     },
