@@ -69,6 +69,10 @@ const LINKS = [
                 text: "searchNEU",
                 url: "https://searchneu.com/",
             },
+            {
+                text: "schedule",
+                url: "https://prod-web.neu.edu/wasapp/bn/AdmittedCourseSchedule/secure/index.jsp",
+            },
         ],
     },
     {
@@ -82,6 +86,16 @@ const LINKS = [
             {
                 text: "audit",
                 url: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+            },
+        ],
+    },
+    {
+        title: "i am here",
+        description: "complete i am here if ur cool",
+        options: [
+            {
+                text: "i am here",
+                url: "https://nu.outsystemsenterprise.com/studentinfo/IAmHere",
             },
         ],
     },
