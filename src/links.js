@@ -196,6 +196,6 @@ const LINKS = [
             },
         ],
     },
-];
+]
 
-export default LINKS;
+export default LINKS
