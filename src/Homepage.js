@@ -70,7 +70,7 @@ function useSystemTheme() {
 }
 
 export default function Homepage() {
-    const [theme, setTheme] = useLocalStorageState("nuisance-theme", "light")
+    const [theme, setTheme] = useLocalStorageState("nuisance-theme", "system")
     const [newTab, setNewTab] = useLocalStorageState(
         "nuisance-tab-behavior",
         false
