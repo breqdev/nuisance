@@ -91,7 +91,7 @@ const LINKS = [
     },
     {
         title: "i am here",
-        description: "complete i am here",
+        description: "complete i am here if ur cool",
         options: [
             {
                 text: "i am here",
