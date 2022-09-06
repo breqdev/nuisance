@@ -27,7 +27,7 @@ export default function Settings(props) {
             <div className="w-full bg-white dark:bg-black transition-colors duration-300 rounded-3xl p-8 flex gap-4 items-center">
                 <span className="text-xl flex-grow">theme</span>
                 <ToggleOptions
-                    options={["light", "dark", "system"]}
+                    options={["system", "light", "dark"]}
                     selected={props.theme}
                     setSelected={props.setTheme}
                 />
