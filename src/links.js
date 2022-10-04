@@ -58,8 +58,7 @@ const LINKS = [
     },
     {
         title: "course registration",
-        description:
-            "view your current course schedule and register for courses",
+        description: "search and register for courses",
         options: [
             {
                 text: "registration",
@@ -69,6 +68,12 @@ const LINKS = [
                 text: "searchNEU",
                 url: "https://searchneu.com/",
             },
+        ],
+    },
+    {
+        title: "schedule",
+        description: "view your current course schedule",
+        options: [
             {
                 text: "schedule",
                 url: "https://prod-web.neu.edu/wasapp/bn/AdmittedCourseSchedule/secure/index.jsp",
@@ -85,7 +90,7 @@ const LINKS = [
             },
             {
                 text: "audit",
-                url: "https://prod-web.neu.edu/wasapp/DARSStudent/RequestAuditServlet",
+                url: "https://neu.uachieve.com/selfservice",
             },
         ],
     },
@@ -144,16 +149,6 @@ const LINKS = [
             {
                 text: "fee waiver",
                 url: "https://www.gallagherstudent.com/northeastern",
-            },
-        ],
-    },
-    {
-        title: "groupme",
-        description: "group chats for courses and LLCs",
-        options: [
-            {
-                text: "chats",
-                url: "https://groupme.com/chats",
             },
         ],
     },
