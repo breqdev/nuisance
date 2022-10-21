@@ -151,6 +151,20 @@ const LINKS = [
         ],
     },
     {
+        title: "snell library",
+        description: "in case hunting for empty colabs isn't your style",
+        options: [
+            {
+                title: "colab booking",
+                url: "https://northeastern.libcal.com/reserve/",
+            },
+            {
+                title: "library info",
+                url: "https://library.northeastern.edu/",
+            },
+        ],
+    },
+    {
         title: "health plan",
         description: "waive your health plan fee",
         options: [
