@@ -71,12 +71,16 @@ const LINKS = [
         ],
     },
     {
-        title: "schedule",
-        description: "view your current course schedule",
+        title: "current courses",
+        description: "view your schedule and submit course evaluations",
         options: [
             {
                 text: "schedule",
                 url: "https://prod-web.neu.edu/wasapp/bn/AdmittedCourseSchedule/secure/index.jsp",
+            },
+            {
+                text: "trace evals",
+                url: "https://www.applyweb.com/eval/shibboleth/neu/36892",
             },
         ],
     },
@@ -96,7 +100,7 @@ const LINKS = [
     },
     {
         title: "i am here",
-        description: "complete i am here if ur cool",
+        description: "i am here",
         options: [
             {
                 text: "i am here",
@@ -105,12 +109,16 @@ const LINKS = [
         ],
     },
     {
-        title: "course evaluations",
-        description: "view or submit course evaluations",
+        title: "graduation",
+        description: "apply to leave this fucking place",
         options: [
             {
-                text: "trace",
-                url: "https://www.applyweb.com/eval/shibboleth/neu/36892",
+                text: "apply",
+                url: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskgrad.p_disp_gradapp",
+            },
+            {
+                text: "view app",
+                url: "https://nubanner.neu.edu/ssomanager/c/SSB?pkg=bwskgrad.p_view_gradapp",
             },
         ],
     },
