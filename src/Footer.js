@@ -41,7 +41,8 @@ export default function Footer() {
     return (
         <div className="px-8 py-16 bg-gray-100 dark:bg-gray-900 transition-colors duration-300 rounded-3xl mt-8 mb-12 text-center">
             <p className="mb-2">
-                made with <FontAwesomeIcon icon={faHeart} /> by brooke chalmers.
+                made with <FontAwesomeIcon icon={faHeart} /> by brooke fucking
+                chalmers.
             </p>
             <ul className="flex gap-8 justify-center">
                 {FOOTER_LINKS.map((link) => (
