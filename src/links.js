@@ -155,11 +155,11 @@ const LINKS = [
         description: "in case hunting for empty colabs isn't your style",
         options: [
             {
-                title: "colab booking",
+                text: "colab booking",
                 url: "https://northeastern.libcal.com/reserve/",
             },
             {
-                title: "library info",
+                text: "library info",
                 url: "https://library.northeastern.edu/",
             },
         ],
