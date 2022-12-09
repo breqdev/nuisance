@@ -10,6 +10,7 @@ const MOTDS = [
     "one weird trick to get to northeastern sites faster!",
     "change your major for the fifteenth time here",
     "big-O isn't real, it can't hurt you",
+    "is it just me or is drew van der poel kinda breedable",
     "think these MOTDs are lame? suggest your own ↓"
 ]
 
