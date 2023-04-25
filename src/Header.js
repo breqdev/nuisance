@@ -38,6 +38,7 @@ const MOTDS = [
     "often imitated, never duplicated",
     "forged in richard's basement!",
     "see someone with pink curly hair? floof it!",
+    "a trolley car is certain to grow in your stomach!",
     "think these MOTDs are lame? suggest your own ↓",
 ]
 
