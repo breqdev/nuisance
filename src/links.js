@@ -200,6 +200,34 @@ const LINKS = [
         ],
     },
     {
+        title: "student hub",
+        description: "why would you ever want to go here",
+        options: [
+            {
+                text: "hub",
+                url: "https://me.northeastern.com/",
+            },
+            {
+                text: "resources",
+                url: "https://northeastern.sharepoint.com/sites/studenthub/SitePages/Student-Resources.aspx#/resources",
+            },
+        ],
+    },
+    {
+        title: "software",
+        description: "a little less risky than pirating photoshop",
+        options: [
+            {
+                text: "adobe",
+                url: "https://northeastern.service-now.com/tech?id=sc_cat_item&sys_id=8f5ddc50dbfa5410a37cd206ca961953",
+            },
+            {
+                text: "onthehub",
+                url: "https://neu.onthehub.com/",
+            },
+        ],
+    },
+    {
         title: "nuisance",
         description: "request new links",
         options: [
