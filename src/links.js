@@ -205,7 +205,7 @@ const LINKS = [
         options: [
             {
                 text: "hub",
-                url: "https://me.northeastern.com/",
+                url: "https://me.northeastern.edu/",
             },
             {
                 text: "resources",
