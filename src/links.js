@@ -165,9 +165,13 @@ const LINKS = [
         ],
     },
     {
-        title: "health plan",
-        description: "waive your health plan fee",
+        title: "stay healthy",
+        description: "take your wellness days, please",
         options: [
+            {
+                text: "wellness days",
+                url: "https://nu.outsystemsenterprise.com/WellnessDays/NewWellnessDay",
+            },
             {
                 text: "fee waiver",
                 url: "https://www.gallagherstudent.com/northeastern",

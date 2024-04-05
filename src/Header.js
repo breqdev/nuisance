@@ -39,6 +39,9 @@ const MOTDS = [
     "forged in richard's basement!",
     "see someone with pink curly hair? floof it!",
     "a trolley car is certain to grow in your stomach!",
+    "the student hub ain't got shit on me",
+    "great bababooey",
+    "take your wellness days!",
     "think these MOTDs are lame? suggest your own ↓",
 ]
 
