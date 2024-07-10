@@ -85,8 +85,8 @@ export default function Homepage() {
                 <div className="flex-grow mx-auto max-w-4xl w-full px-4">
                     <Header />
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-                        {LINKS.map((link) => (
-                            <Card key={link.url} {...link} newTab={newTab} />
+                        {LINKS.map((link, i) => (
+                            <Card key={i} {...link} newTab={newTab} />
                         ))}
                     </div>
                     <Settings
