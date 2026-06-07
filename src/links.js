@@ -19,11 +19,11 @@ const LINKS = [
         options: [
             {
                 text: "email",
-                url: "https://outlook.office365.com/owa/?realm=northeastern.edu",
+                url: "https://outlook.cloud.microsoft/mail/",
             },
             {
                 text: "calendar",
-                url: "https://outlook.office.com/calendar/",
+                url: "https://outlook.cloud.microsoft/calendar/",
             },
         ],
     },
@@ -128,11 +128,11 @@ const LINKS = [
         options: [
             {
                 text: "hours",
-                url: "https://www.nudining.com/",
+                url: "https://new.dineoncampus.com/public/hours-of-operation",
             },
             {
                 text: "menus",
-                url: "https://nudining.com/public/menus",
+                url: "https://new.dineoncampus.com/public/whats-on-the-menu",
             },
         ],
     },
@@ -190,16 +190,16 @@ const LINKS = [
         ],
     },
     {
-        title: "yammer",
-        description: "what the fuck is yammer",
+        title: "viva engage",
+        description: "what the fuck is engage",
         options: [
             {
                 text: "feed",
-                url: "https://web.yammer.com/main/feed",
+                url: "https://engage.cloud.microsoft/main/feed",
             },
             {
                 text: "inbox",
-                url: "https://web.yammer.com/main/inbox",
+                url: "https://engage.cloud.microsoft/main/inbox",
             },
         ],
     },

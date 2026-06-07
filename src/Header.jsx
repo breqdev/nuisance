@@ -2,7 +2,7 @@ import React, { useMemo } from "react"
 
 const MOTDS = [
     "aoun's super students use nuisance",
-    "did you know ctrl+alt+win+shift+Y opens yammer?",
+    "did you know ctrl+alt+win+shift+Y opens viva engage?",
     "is it just me or is ben lerner kinda cute",
     "your favorite niche internet microcelebrities use nuisance",
     "find someone who loves you like andrew van der poel loves reductions",
@@ -28,7 +28,7 @@ const MOTDS = [
     "i'm glad you're here!",
     "more interactive than Zombo.com!",
     "of course brooke broke it again",
-    "sliding in their (yammer) DMs!",
+    "sliding in their (viva engage) DMs!",
     "powered by react, javascript, and a CPU someone built in minecraft",
     "warning: not guaranteed to work at altitudes above 12,000 feet",
     "hey guys would you join my minecraft server",
